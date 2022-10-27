@@ -9,18 +9,46 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+        VStack{
+            ZStack{
+                
+                Circle()
+                    .stroke(.purple, lineWidth: 5)
+                    .frame(width: 200, height: 200)
+                    .padding()
+                Image("ghada")
+                    .resizable()
+                    .frame(width:200,height:200)
+                .cornerRadius(100)}
+            
+            
+            //                Image("ghada")
+            //                    .resizable()
+            //                    .frame(width:200,height:200)
+            //                    .cornerRadius(100)
+            //                //                .border(Color.purple,width:5)
+            //                .cornerRadius(8)
+            //
+            
+            
+            
+            VStack{
+                Text("Ghada Alshahrani")
+                    .foregroundColor(Color.yellow)
+                    .bold()
+                Text("I am fresh graduate , my major is CS , this is first time i will create app .")
+                
+                    .foregroundColor(Color.purple)
+            }}
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+   
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
