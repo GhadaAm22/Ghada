@@ -38,11 +38,10 @@ struct ContentView: View {
                     .foregroundColor(Color.yellow)
                     .bold()
                 Text("I am fresh graduate , my major is CS , this is first time i will create app .")
-                Text("I am fresh graduate , my major is CS , this is first time i will create app .")
-                Text("I am fresh graduate , my major is CS , this is first time i will create app .")
+
    
             }
-            .foregroundColor(Color.purple)
+            .foregroundColor(Color.blue)
             
         }
     }
